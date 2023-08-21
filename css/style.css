@@ -167,7 +167,7 @@ img{
     flex: 1;
 }
 .host-about-img:hover{
-    transform: scale(1.1);
+    transform: scale(104%);
 }
 @media (max-width: 460px){
     .host-about-bio{
@@ -204,7 +204,7 @@ img{
     transition: transform .6s;
 }
 .host-product-item:hover{
-    transform: translateY(-16px);
+    transform: translateY(-20px);
 }
 .host-product-item h2{
     font-size: 3.6rem;
@@ -269,7 +269,7 @@ img{
     flex: 1 1 320px;
 }
 .host-price-item:hover{
-    transform: scale(1.1);
+    transform: scale(108%);
 }
 .host-price-item h2{
     font-size: 3.6rem;
@@ -402,7 +402,7 @@ img{
 }
 .host-news-msg p{
     font-style: italic;
-    line-height: 1;
+    line-height: 1.2;
 }
 .host-news-form{
     /*flex*/
