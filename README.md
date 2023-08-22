@@ -1,2 +1,2 @@
 # projeto-flexbox
-Prática de FlexBox
+Prática de CSS Flexbox
