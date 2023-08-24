@@ -250,6 +250,7 @@ img{
     text-align: center;
     padding: 0 1.6rem 6rem;
     font-size: 3.6rem;
+    line-height: 1;
 }
 .host-price-container{
     max-width: 1600px;
