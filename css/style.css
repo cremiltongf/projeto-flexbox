@@ -334,6 +334,14 @@ img{
 .host-price-item a:hover{
     color: #a89dcb;
 }
+@media (max-width: 1055px) {
+    .price-business{
+        order: -2;
+    }
+    .price-cloud{
+        order: -1;
+    }
+}
 
 /* quality */
 .host-quality{
@@ -476,4 +484,10 @@ button:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.host-footer-container a{
+    color: #a89dcb;   
+}
+.host-footer-container a:hover{
+    color: #e7e8f7;
 }
