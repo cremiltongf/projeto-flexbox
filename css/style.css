@@ -104,7 +104,7 @@ img{
 .host-menu a:hover{
     color: #a89dcb;
 }
-@media (max-width: 522px){
+@media (max-width: 554px){
     .host-logo,
     .host-menu{
         flex: 1 1 520px;
@@ -237,6 +237,11 @@ img{
         margin: 0 auto;
     }
 }
+@media (max-width: 768px){
+    .host-product h1{
+        margin-bottom: 3rem;
+    }
+}
 
 /* preços */
 .host-price{
@@ -248,7 +253,7 @@ img{
 .host-price h1{
     color: #323232;
     text-align: center;
-    padding: 0 1.6rem 6rem;
+    margin: 0 1.6rem 6rem;
     font-size: 3.6rem;
     line-height: 1;
 }
@@ -342,6 +347,11 @@ img{
         order: -1;
     }
 }
+@media (max-width: 768px){
+    .host-price h1{
+        margin: 0 1.6rem 3rem;
+    }
+}
 
 /* quality */
 .host-quality{
@@ -385,6 +395,11 @@ img{
 }
 .host-quality-item p{
     padding: 1.6rem 0;
+}
+@media (max-width: 768px){
+    .host-quality h1{
+        margin: 3rem 0 1.4rem;
+    }
 }
 
 /* news */
@@ -490,4 +505,10 @@ button:hover{
 }
 .host-footer-container a:hover{
     color: #e7e8f7;
+}
+@media(max-width: 622px){
+    .copy{
+        text-align: center;
+        padding: 1.6rem;
+    }
 }
